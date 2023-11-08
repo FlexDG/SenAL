@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <link rel="icon" type="image/ico" href="logo/SenAl-Tab-Icon.png">
+    <title>Home - Senal</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="js/SenAl.js"></script>
+</head>
+
+<body id="top">
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo/SenAl-Logo.png" alt="">
+            </a>
+            <div class="navbar-wrapper">
+                <button class="navbar-menu-btn" data-navbar-toggle-btn>
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+                <nav class="navbar" data-navbar>
+                    <ul class="navbar-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">FAQs</a>
+                        </li>
+                    </ul>
+                    <a href="index.html"><button class="btn btn-primary">Get in touch</button></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="main">
+                <div class="main-left">
+                    <h5><i class="fa-solid fa-search-plus"></i>Popular Item</h5>
+                    <p>Total computation of the recorded lexical strings
+                        inputted by the user to calculate the polarity. <span class="positive">1</span> and above will be determined as
+                        positve, a flat <span class="neutral">0 </span>will be neutral,
+                        as for <span class="negative">-1</span> and below, the result would be negative.
+                      </p>
+                    <h5><i class="fa-solid fa-columns"></i>Comparative Scoring</h5>
+                    <p>The Comparative Score is the result of the calculation between the total sentiment score divided
+                        by
+                        the total number of lexical words/strings within the sentence/paragraph.</p>
+                    <h5><i class="fa-solid fa-database"></i>Afinn Score</h5>
+                    <p>The display of values for each word/string inputted by the user that are available within
+                        Afinn165.</p>
+                </div>
+                <div class="container-textarea">
+                    <textarea class="textarea count-words" spellcheck="true" maxlength="700" data-max-words="700"
+                        placeholder="Enter text...." id="txt"></textarea>
+                    <div class="input-msg text-orange"></div>
+                    <div class="container-score">
+                        <span class="senti-score">
+                            <div class="score 1" id="scoreP"></div>
+                        </span>
+                        <span class="comp-score">
+                            <div class="score 2" id="comparativeP"></div>
+                        </span>
+                                <span class="afinn-score">
+                                    <div class="score 3" id="wordlistP"></div>
+                                </span>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="/logo/SenAl-Logo-footer.png" alt="">
+                    </a>
+                    <p class="footer-text">Follow us on</p>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-link-box">
+
+                    <ul class="footer-link-list">
+                        <li>
+                            <h3 class="h4 link-title">Technology</h3>
+                        </li>
+                        <li><a href="#" class="footer-link">Vanilla.JS</a></li>
+                        <li><a href="#" class="footer-link">Node.JS</a></li>
+                        <li><a href="#" class="footer-link">P5.JS</a></li>
+                    </ul>
+                    <ul class="footer-link-list">
+                        <li>
+                            <h3 class="h4 link-title">Products</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-link-list">
+                        <li>
+                            <h3 class="h4 link-title">Resources</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Benefits</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Testimonial</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">Terms & Conditions</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2022 <a href="#">All Right Reserved. <span> Flex.Dev</span>
+            </p>
+
+        </div>
+
+    </footer>
+
+    <a href="#top" class="go-top active" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

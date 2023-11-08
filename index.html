@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/ico" href="logo/SenAl-Tab-Icon.png">
+  <title>Home - Senal</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="logo/SenAl-Logo.png" alt="">
+      </a>
+      <div class="navbar-wrapper">
+        <button class="navbar-menu-btn" data-navbar-toggle-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#benefits" class="nav-link">Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+          </ul>
+          <a href="#contact"><button class="btn btn-primary">Get in touch</button></a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1 hero-title"><span>Taking Text Analysis</span> to New Heights</h1>
+            <p class="hero-text">
+              <span>SenAl</span> is an easy to use, open source score based sentiment analysis application revolving
+              around <span>AFINN165</span>,
+              a lexical database containing a large group of words that are assigned a positive and negative score.
+              SenAl utilizes <span>Node.js</span> as its main backend foundation accompanied by the logic of a
+              <span>fuzzy decision tree</span>.
+            </p>
+            <a href="main.html"> <button class="btn btn-primary">Try Now</button></a>
+          </div>
+          <div class="hero-banner"></div>
+        </div>
+        <img src="./assets/images/bg.png" alt="shape" class="shape-content">
+      </section>
+
+      <section class="about" id="features">
+        <div class="container">
+          <div class="about-top">
+            <h2 class="h2 section-title">Notable <span></span> Features</h2>
+            <p class="section-text">
+              Powered by SenAl
+            </p>
+            <ul class="about-list">
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="h3 card-title">Sentiment Scoring</h3>
+                  <p class="card-text">
+                    Determine the polarity of a sentence or paragraph through a score based sentiment scoring javascript
+                    syntax with the integration of Afinn165 containing lexical strings with different weighted positive
+                    and negative values.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="about-card">
+                  <div class="card-icon-2">
+                    <i class="fa fa-columns" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="h3 card-title">Comparative Scoring</h3>
+                  <p class="card-text">
+                    The Comparative Score is made available to display the result of the calculation between the total
+                    score divided by the total number of lexical words/strings within the sentence/paragraph, improving
+                    the accuracy of the final results of polarity.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="about-card">
+                  <div class="card-icon-3">
+                    <i class="fa fa-database" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="h3 card-title">Afinn Transparency</h3>
+                  <p class="card-text-afinn">
+                    The lexical strings available which are inputted are displayed alongside their respective values to
+                    provide maximum transparency and overall system efficiency to the user.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="about-bottom">
+            <figure class="about-bottom-banner">
+              <img src="./assets/images/about-banner.png" alt="about banner" class="about-banner">
+            </figure>
+            <div class="about-bottom-content">
+              <h2 class="h2 section-title">Spelling Corrections Validation</h2>
+              <p class="section-text">
+                Spelling corrections will be validated via HTML spellchecker and the Afinn Score. If the words inputted
+                are recorded within Afinn but are not displayed, it means that the user mispelled a word, the mispelled
+                word will then be highlighted by a red marker to alert the user.
+              </p>
+              <button class="btn btn-secondary">View More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="benefits">
+        <div class="container">
+          <h2 class="h2 section-title">Using a sentiment analysis application like Senal can offer numerous benefits in
+            a variety of contexts.</h2>
+          <p class="section-text">
+            Gain deeper insights, make data-driven decisions, and enhance your digital presence with Senal's powerful
+            sentiment analysis
+          </p>
+          <ul class="features-list">
+            <li class="features-item">
+              <figure class="features-item-banner">
+                <img src="./assets/images/feature-1.png" alt="feature banner">
+              </figure>
+              <div class="feature-item-content">
+                <h3 class="h2 item-title">Personal Insights</h3>
+                <p class="item-text">
+                  Individuals can use Senal to gain a better understanding of their own online presence and how their
+                  posts and comments are perceived by others. This can be a valuable tool for personal branding and
+                  self-improvement.
+                </p>
+              </div>
+            </li>
+            <li class="features-item">
+              <figure class="features-item-banner">
+                <img src="./assets/images/feature-2.png" alt="feature banner">
+              </figure>
+              <div class="feature-item-content">
+                <h3 class="h2 item-title">Social Media Monitoring</h3>
+                <p class="item-text">
+                  For individuals and businesses, monitoring social media sentiment can be crucial. Senal can help track
+                  and analyze public sentiment related to your brand, products, or services on platforms like Twitter,
+                  Facebook, and Instagram. This real-time insight can be used for brand management and public relations.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section class="testimonials" id="testimonials">
+        <div class="container-testimonials">
+          <div class="container__left">
+            <h1 class="section-title">Who Benefits from Senal's Sentiment Analyzer?</h1>
+            <p>
+              Over 200 companies frim diverse sectors consult us to enhance the
+              user experience of their products and services.
+            </p>
+            <p>
+              Whether you're a writer generating web content, or a regular social media consumer writing comments
+              online, utilizing a sentiment analysis tool can not only help you steer clear of writing mistakes, but
+              also aid you in constructing content which is morally suitable for all types of audiences.
+            </p>
+            <button class="btn btn-primary">view more</button>
+          </div>
+          <div class="container__right">
+            <div class="card-testimonial">
+              <img src="assets/images/aaron.jpg" alt="" />
+              <div class="card__content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <div class="card__details">
+                  <p>
+                    "I've been using this sentiment analysis web app for a while now, and it's a game-changer! It's
+                    incredibly accurate in gauging sentiment, and it's become an indispensable tool for my social media
+                    marketing efforts.
+                  </p>
+                  <h4>- Aaron Deloso</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-testimonial">
+              <img src="assets/images/danica.png" alt="" />
+              <div class="card__content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <div class="card__details">
+                  <p>
+                    "As a content creator, I rely on this sentiment analysis web app to understand how my articles are
+                    being received. It's user-friendly and provides valuable insights that have improved the engagement
+                    of my posts."
+                  </p>
+                  <h4>- Danica Calma</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-testimonial">
+              <img src="assets/images/patric.jpg" alt="" />
+              <div class="card__content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <div class="card__details">
+                  <p>
+                    "I run a small business, and this sentiment analysis web app has been a lifesaver. It allows me to
+                    track online reviews and social media mentions to ensure our brand's reputation is positive. It's a
+                    must-have for any business owner."
+                  </p>
+                  <h4>- Patric Cortez</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="container">
+          <div class="cta-card">
+            <h3 class="cta-title">Newsletter</h3>
+            <p class="cta-text">
+              Join the Senal Community. Get Sentiment Analysis Insights Delivered to Your Inbox. Subscribe Now!
+            </p>
+            <form action="" class="cta-form">
+              <input type="email" autocomplete="off" name="email" placeholder="Your email address">
+              <button type="submit" class="btn btn-secondary">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="/logo/SenAl-Logo-footer.png" alt="">
+          </a>
+          <p class="footer-text">Follow us on</p>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+ 
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-link-box">
+
+          <ul class="footer-link-list">
+            <li>
+              <h3 class="h4 link-title">Technology</h3>
+            </li>
+            <li><a href="#" class="footer-link">Vanilla.JS</a></li>
+            <li><a href="#" class="footer-link">Node.JS</a></li>
+            <li><a href="#" class="footer-link">P5.JS</a></li>
+          </ul>
+          <ul class="footer-link-list">
+            <li>
+              <h3 class="h4 link-title">Products</h3>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Help Center</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+          </ul>
+          <ul class="footer-link-list">
+            <li>
+              <h3 class="h4 link-title">Resources</h3>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Benefits</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Testimonial</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+          </ul>
+ 
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2022 <a href="#">All Right Reserved. <span> Flex.Dev</span>
+      </p>
+     
+    </div>
+
+  </footer>
+
+  <a href="#top" class="go-top active" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+  <script src="js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
