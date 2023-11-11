@@ -287,6 +287,14 @@ header .container {
   z-index: -1;
 }
 
+.shape-content-3 {
+  position: absolute;
+  width: 900px;
+  top: -70px;
+  right: -200px;
+  z-index: -1;
+}
+
 
 /*-----------------------------------*\ 
  * #ABOUT
