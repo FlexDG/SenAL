@@ -62,19 +62,3 @@ function setup() {
   })
 })();
 
-$(document).ready(function () {
-  // Sample code to get the AFINN score (you may have your own way)
-  var afinnScore = 10; // Replace with your AFINN score
-
-  var $container = $('.container-wrapper');
-  
-  // Set a threshold value for AFINN score when you want to limit the height
-  var thresholdScore = 5; // Adjust this threshold as needed
-  
-  if (afinnScore > thresholdScore) {
-    $container.css('max-height', '150px'); // Change the height as needed
-  } else {
-    $container.css('max-height', '150px'); // Set back to the default height
-  }
-});
-

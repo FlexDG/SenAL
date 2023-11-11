@@ -280,8 +280,12 @@ header .container {
   z-index: -1;
 }
 
-
-
+.shape-content-2{
+  position: absolute;
+  top: 240em;
+  right: -10px;
+  z-index: -1;
+}
 
 
 /*-----------------------------------*\ 
@@ -497,7 +501,6 @@ header .container {
 }
 
 .testimonials {
-  background-image: url("../images/bg-2.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -752,7 +755,6 @@ footer .logo {
 
 
 .main {
-  background-image: url("../images/bg-2.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1011,7 +1013,11 @@ footer .logo {
 
 }
 
-
+@media (max-width: 1023px) {
+   .shape-content-2 {
+    display: none;
+   }
+}
 
 @media (min-width: 560px) {
 
