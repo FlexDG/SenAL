@@ -497,7 +497,7 @@ header .container {
 }
 
 .testimonials {
-  background-image: url("assets/images/bg-2.png");
+  background-image: url("../images/bg-2.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -752,7 +752,7 @@ footer .logo {
 
 
 .main {
-  background-image: url("assets/images/bg-2.png");
+  background-image: url("../images/bg-2.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
