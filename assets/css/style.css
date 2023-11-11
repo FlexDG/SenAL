@@ -1131,6 +1131,10 @@ footer .logo {
   .shape-content {
     display: none;
   }
+
+  .shape-content-3 {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
